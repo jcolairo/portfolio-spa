@@ -5,22 +5,22 @@ function PortfolioController($state) {
     {
       title: 'Connect 4',
       titleName: 'portfolio-connect4',
-      img: '',
-      desc: '',
+      img: 'connect4.png',
+      desc: 'Connect 4 desciption',
       link: 'https://jcolairo-sg-project-1.herokuapp.com/'
     },
     {
       title: 'Find your favourite Movie',
       titleName: 'portfolio-movies',
-      img: '',
-      desc: '',
+      img: 'movies.png',
+      desc: 'movies users desciption',
       link: 'https://users-movie-mvc.herokuapp.com/'
     },
     {
       title: 'Find crime in your area',
       titleName: 'portfolio-police',
-      img: '',
-      desc: '',
+      img: 'police.png',
+      desc: 'police api desciption',
       link: 'https://james-sg-project-3.herokuapp.com/'
     }
   ];

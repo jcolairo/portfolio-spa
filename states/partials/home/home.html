@@ -1,10 +1,12 @@
 <h1>Home</h1>
 
-<section ng-controller="PortfolioController as port">
+<section ng-controller="PortfolioController as port" >
   <ul ng-repeat="project in port.portfolioData">
-    <li>
+    <li class="project-containers">
       <h2><a ui-sref="{{project.titleName}}">{{project.title}}</a></h2>
+      <p>{{project.desc}}</p>
       <a target="_blank" href="{{project.link}}">View Project</a>
+      <img src="../images/{{project.img}}" alt="{{project.title}}">
     </li>
   </ul>
 </section>
