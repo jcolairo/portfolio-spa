@@ -24,19 +24,22 @@ function MainRouter ($stateProvider, $urlRouterProvider) {
   .state('portfolio-connect4', {
     url: '/portfolio/connect4',
     views: {
-
+      '': {templateUrl: '/states/template.html'},
+      'main@portfolio-connect4': {templateUrl: '/states/partials/portfolio/connect4.html'}
     }
   })
   .state('portfolio-movies', {
     url: '/portfolio/movies',
     views: {
-
+      '': {templateUrl: '/states/template.html'},
+      'main@portfolio-movies': {templateUrl: '/states/partials/portfolio/movies.html'}
     }
   })
   .state('portfolio-police', {
     url: '/portfolio/police',
     views: {
-
+      '': {templateUrl: '/states/template.html'},
+      'main@portfolio-police': {templateUrl: '/states/partials/portfolio/police.html'}
     }
   });
 
