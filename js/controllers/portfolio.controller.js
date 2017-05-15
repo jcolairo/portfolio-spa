@@ -7,7 +7,8 @@ function PortfolioController($state) {
       titleName: 'portfolio-connect4',
       img: 'connect4.png',
       desc: 'Connect 4 desciption',
-      link: 'https://jcolairo-sg-project-1.herokuapp.com/'
+      link: 'https://jcolairo-sg-project-1.herokuapp.com/',
+      imgPath: 'images-connect4'
     },
     {
       title: 'Find your favourite Movie',

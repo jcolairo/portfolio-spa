@@ -5,3 +5,8 @@ li {
   height: 20em;
   background: red;
 }
+.portfolio-connect4 {
+  width: 100%;
+  background: url(../images/connect4.png) center right no-repeat;
+  background-size: contain;
+}
