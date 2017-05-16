@@ -1,14 +1,13 @@
-function PortfolioController($state) {
+function PortfolioController() {
   var controller = this;
 
   controller.portfolioData = [
     {
       title: 'Connect 4',
       titleName: 'portfolio-connect4',
-      img: 'connect4.png',
+      img: 'connect4',
       desc: 'Connect 4 desciption',
-      link: 'https://jcolairo-sg-project-1.herokuapp.com/',
-      imgPath: 'images-connect4'
+      link: 'https://jcolairo-sg-project-1.herokuapp.com/'
     },
     {
       title: 'Find your favourite Movie',
