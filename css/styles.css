@@ -133,36 +133,3 @@ h2 {
   position: relative;
   background-color: #E8E8E8;
 }
-.portfolio-connect4 {
-  background: url(../images/connect4.png) center right no-repeat;
-  background-size: contain;
-  display: inline-block;
-  /*float: right;*/
-  height: 25rem;
-  width: 25rem;
-  border-radius: 0.2rem;
-  background-size: 100%;
-  background-position-x: center;
-}
-.portfolio-movies {
-  background: url(../images/movies.png) center right no-repeat;
-  background-size: contain;
-  display: inline-block;
-  /*float: right;*/
-  height: 25rem;
-  width: 25rem;
-  border-radius: 0.2rem;
-  background-size: 100%;
-  background-position-x: center;
-}
-.portfolio-police {
-  background: url(../images/police.png) center right no-repeat;
-  background-size: contain;
-  display: inline-block;
-  /*float: right;*/
-  height: 25rem;
-  width: 25rem;
-  border-radius: 0.2rem;
-  background-size: 100%;
-  background-position-x: center;
-}
