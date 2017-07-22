@@ -1,7 +1,7 @@
 function MainRouter ($stateProvider, $urlRouterProvider) {
   $stateProvider
   .state('home', {
-    url: '/home',
+    url: '/',
     views: {
       '': {templateUrl: '/states/template.html'},
       'main@home': {templateUrl: '/states/partials/home/home.html'}
@@ -52,6 +52,8 @@ function MainRouter ($stateProvider, $urlRouterProvider) {
 
   $urlRouterProvider.otherwise('/');
 }
+
+MainRouter.$inject = ['$stateProvider', '$urlRouterProvider'];
 
 angular
   .module('PortfolioApp', ['ui.router'])
