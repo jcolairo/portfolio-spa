@@ -4,6 +4,10 @@
 /*.polariod-contrainer {
   margin: 0;
 }*/
+.projectOutlineBlock {
+  display: block;
+  margin-left: 25%;
+}
 .polariod-top {
   background-color: #E8E8E8;
   position: left;
@@ -11,6 +15,7 @@
   display: block;
   margin: 1rem auto 1rem auto;
   width: 29rem;
+  display: inline-block;
 }
 .polariod-frame {
   margin: 1.5rem 1.5rem 0rem 1.5rem;
@@ -25,10 +30,10 @@
 .projectTitle {
   margin: 0;
 }
-.shortDesc {
-  /*margin-top: 300px;*/
-  margin-bottom: 0;
-  color: black;
+.projectDesc {
+  display: inline-block;
+  width: 30%;
+  margin: auto 0 auto 2rem;
 }
 
 

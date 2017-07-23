@@ -35,7 +35,7 @@ function MainRouter ($stateProvider, $urlRouterProvider) {
     url: '/portfolio/connect4',
     views: {
       '': {templateUrl: '/states/templateProjects.html'},
-      'aside@portfolio-connect4': {templateUrl: '/states/partials/aside/aside.html.html'},
+      'aside@portfolio-connect4': {templateUrl: '/states/partials/aside/aside.html'},
       'main@portfolio-connect4': {templateUrl: '/states/partials/portfolio/connect4.html'}
     }
   })
@@ -43,7 +43,7 @@ function MainRouter ($stateProvider, $urlRouterProvider) {
     url: '/portfolio/movies',
     views: {
       '': {templateUrl: '/states/templateProjects.html'},
-      'aside@portfolio-movies': {templateUrl: '/states/partials/aside/aside.html.html'},
+      'aside@portfolio-movies': {templateUrl: '/states/partials/aside/aside.html'},
       'main@portfolio-movies': {templateUrl: '/states/partials/portfolio/movies.html'}
     }
   })
@@ -51,7 +51,7 @@ function MainRouter ($stateProvider, $urlRouterProvider) {
     url: '/portfolio/police',
     views: {
       '': {templateUrl: '/states/templateProjects.html'},
-      'aside@portfolio-police': {templateUrl: '/states/partials/aside/aside.html.html'},
+      'aside@portfolio-police': {templateUrl: '/states/partials/aside/aside.html'},
       'main@portfolio-police': {templateUrl: '/states/partials/portfolio/police.html'}
     }
   });

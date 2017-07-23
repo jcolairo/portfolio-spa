@@ -1,6 +1,13 @@
 .sideBar {
-  height: 100%;
-  width: 25%;
+  padding: 1rem;
+  padding-right: 1.5rem;
   position: fixed;
-  background-color: blue;
+  margin-left: 5vw;
+}
+.sideBarUl {
+  font-size: 3rem;
+  margin: 0;
+}
+.sideBarUl li {
+  padding: 1rem;
 }
