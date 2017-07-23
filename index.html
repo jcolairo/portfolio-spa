@@ -33,6 +33,7 @@
   <script src="js/controllers/portfolio.controller.js"></script>
 
   <link type="text/css" rel="stylesheet" href="css/styles.css" />
+  <link type="text/css" rel="stylesheet" href="css/side-bar.css" />
   <link type="text/css" rel="stylesheet" href="css/home-styles.css" />
   <link type="text/css" rel="stylesheet" href="css/project-styles.css" />
 
@@ -41,9 +42,8 @@
 <body>
 
   <div id="bg"></div>
-  <section>
+  <section ng-if="home">
     <nav>
-      <div></div>
       <ul>
         <li data-xcoord="0px" ui-sref="home"><a>Home</a></li>
         <li data-xcoord="160px" ui-sref="project"><a>Project</a></li>
