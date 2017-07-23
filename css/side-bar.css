@@ -2,12 +2,36 @@
   padding: 1rem;
   padding-right: 1.5rem;
   position: fixed;
-  margin-left: 5vw;
+  padding-left: 5vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  border-right: 2px solid rgba(0,0,0,.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #b0bec5;
 }
 .sideBarUl {
   font-size: 3rem;
   margin: 0;
 }
-.sideBarUl li {
+.sideBarLi a {
+  width: 100px;
+}
+.sideBarLi {
+  transition: 0.4s;
+  color: #b0bec5;
+  font-size: 20px;
+  text-decoration: none;
   padding: 1rem;
+  margin: 0 10px;
+  width: 100px;
+}
+.sideBarLi:hover {
+  background-color: #D1D1D1;
+  color: #EEA200;
+  padding: 24px 1rem;
+  border-radius: 10%;
+  width: 100px;
 }

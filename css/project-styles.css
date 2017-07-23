@@ -1,26 +1,23 @@
-.container-container {
-  /*display: inline-flex;*/
-}
-/*.polariod-contrainer {
-  margin: 0;
-}*/
 .projectOutlineBlock {
   display: block;
   margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  border: 1px solid black;
+  background-color: rgba(39, 42, 47, 0.3);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 10px;
 }
 .polariod-top {
-  background-color: #E8E8E8;
-  position: left;
-  border: 2px solid black;
-  display: block;
-  margin: 1rem auto 1rem auto;
-  width: 29rem;
-  display: inline-block;
+    background: url(../images/polariod-frame.png) center center no-repeat;
+    display: inline-block;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    height: 427px;
+    width: 390px;
 }
 .polariod-frame {
   margin: 1.5rem 1.5rem 0rem 1.5rem;
-  /*margin-bottom: 5rem;*/
-  background-color: rgba(0, 0, 0, 0.66);
   color: white;
 }
 .polariod-bottom {
@@ -29,55 +26,44 @@
 }
 .projectTitle {
   margin: 0;
+  margin-left: 20px;
+  margin-top: -25px;
 }
 .projectDesc {
   display: inline-block;
-  width: 30%;
+  width: 35%;
   margin: auto 0 auto 2rem;
 }
-
-
-
-
-
-
-
-
-
-
 .portfolio-connect4 {
   background: url(../images/connect4.png) center right no-repeat;
-  background-size: contain;
   display: inline-block;
-  /*float: right;*/
   height: 25rem;
-  width: 25rem;
+  width: 23.5rem;
   border-radius: 0.2rem;
   background-size: 100%;
+  margin-left: -10px;
+  margin-top: -30px;
   background-position-x: center;
-  width: 100%;
 }
 .portfolio-movies {
   background: url(../images/movies.png) center right no-repeat;
-  background-size: contain;
   display: inline-block;
-  /*float: right;*/
   height: 25rem;
-  width: 25rem;
+  width: 23rem;
   border-radius: 0.2rem;
   background-size: 100%;
+  margin-left: -3px;
+  margin-top: -30px;
   background-position-x: center;
-  width: 100%;
 }
 .portfolio-police {
   background: url(../images/police.png) center right no-repeat;
-  background-size: contain;
   display: inline-block;
-  /*float: right;*/
   height: 25rem;
-  width: 25rem;
+  width: 23rem;
   border-radius: 0.2rem;
   background-size: 100%;
+  margin-left: -3px;
+  margin-top: -35px;
   background-position-x: center;
-  width: 100%;
 }
