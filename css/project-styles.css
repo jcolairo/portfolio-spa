@@ -35,6 +35,7 @@
 .projectTitle {
   margin: 0;
   margin-left: 55px;
+  margin-top: -25px;
 }
 .projectDesc {
   display: inline-block;
