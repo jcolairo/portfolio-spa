@@ -1,36 +1,18 @@
-.container-container {
-  /*display: inline-flex;*/
-}
-/*.polariod-contrainer {
-  margin: 0;
-}*/
 .projectOutlineBlock {
   display: block;
   margin-left: 25%;
   margin-bottom: 2rem;
 }
-/*.polariod-top {
-  background-color: #E8E8E8;
-  position: left;
-  border: 2px solid black;
-  display: block;
-  margin: 1rem auto 1rem auto;
-  width: 29rem;
-  display: inline-block;
-}*/
 .polariod-top {
-  background: url(../images/polariod-frame.png) right center no-repeat;
-  display: inline-block;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-  height: 430px;
-  width: 435px;
+    background: url(../images/polariod-frame.png) center center no-repeat;
+    display: inline-block;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    height: 427px;
+    width: 390px;
 }
 .polariod-frame {
   margin: 1.5rem 1.5rem 0rem 1.5rem;
-  /*margin-bottom: 5rem;*/
-  /*background-color: rgba(0, 0, 0, 0.66);*/
   color: white;
-  /*height: 500px;*/
 }
 .polariod-bottom {
   height: 5rem;
@@ -46,21 +28,9 @@
   width: 30%;
   margin: auto 0 auto 2rem;
 }
-
-
-
-
-
-
-
-
-
-
 .portfolio-connect4 {
   background: url(../images/connect4.png) center right no-repeat;
-  /*background-size: contain;*/
   display: inline-block;
-  /*float: right;*/
   height: 25rem;
   width: 23.5rem;
   border-radius: 0.2rem;
@@ -68,13 +38,10 @@
   margin-left: -10px;
   margin-top: -25px;
   background-position-x: center;
-  /*width: 100%;*/
 }
 .portfolio-movies {
   background: url(../images/movies.png) center right no-repeat;
-  /*background-size: contain;*/
   display: inline-block;
-  /*float: right;*/
   height: 25rem;
   width: 23rem;
   border-radius: 0.2rem;
@@ -82,13 +49,10 @@
   margin-left: -3px;
   margin-top: -35px;
   background-position-x: center;
-  /*width: 100%;*/
 }
 .portfolio-police {
   background: url(../images/police.png) center right no-repeat;
-  /*background-size: contain;*/
   display: inline-block;
-  /*float: right;*/
   height: 25rem;
   width: 23rem;
   border-radius: 0.2rem;
@@ -96,5 +60,4 @@
   margin-left: -3px;
   margin-top: -35px;
   background-position-x: center;
-  /*width: 100%;*/
 }
