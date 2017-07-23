@@ -8,7 +8,7 @@
   display: block;
   margin-left: 25%;
 }
-.polariod-top {
+/*.polariod-top {
   background-color: #E8E8E8;
   position: left;
   border: 2px solid black;
@@ -16,12 +16,17 @@
   margin: 1rem auto 1rem auto;
   width: 29rem;
   display: inline-block;
+}*/
+.polariod-top {
+  background: url(../images/polariod-frame.png) center left no-repeat;
+  display: inline-block;
 }
 .polariod-frame {
   margin: 1.5rem 1.5rem 0rem 1.5rem;
   /*margin-bottom: 5rem;*/
-  background-color: rgba(0, 0, 0, 0.66);
+  /*background-color: rgba(0, 0, 0, 0.66);*/
   color: white;
+  height: 500px;
 }
 .polariod-bottom {
   height: 5rem;
@@ -29,6 +34,7 @@
 }
 .projectTitle {
   margin: 0;
+  margin-left: 55px;
 }
 .projectDesc {
   display: inline-block;
@@ -47,37 +53,43 @@
 
 .portfolio-connect4 {
   background: url(../images/connect4.png) center right no-repeat;
-  background-size: contain;
+  /*background-size: contain;*/
   display: inline-block;
   /*float: right;*/
   height: 25rem;
-  width: 25rem;
+  width: 23.5rem;
   border-radius: 0.2rem;
   background-size: 100%;
+  margin-left: 55px;
+  margin-top: 20px;
   background-position-x: center;
-  width: 100%;
+  /*width: 100%;*/
 }
 .portfolio-movies {
   background: url(../images/movies.png) center right no-repeat;
-  background-size: contain;
+  /*background-size: contain;*/
   display: inline-block;
   /*float: right;*/
   height: 25rem;
-  width: 25rem;
+  width: 23rem;
   border-radius: 0.2rem;
   background-size: 100%;
+  margin-left: 61px;
+  margin-top: 20px;
   background-position-x: center;
-  width: 100%;
+  /*width: 100%;*/
 }
 .portfolio-police {
   background: url(../images/police.png) center right no-repeat;
-  background-size: contain;
+  /*background-size: contain;*/
   display: inline-block;
   /*float: right;*/
   height: 25rem;
-  width: 25rem;
+  width: 23rem;
   border-radius: 0.2rem;
   background-size: 100%;
+  margin-left: 61px;
+  margin-top: 20px;
   background-position-x: center;
-  width: 100%;
+  /*width: 100%;*/
 }
