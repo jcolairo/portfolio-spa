@@ -30,6 +30,12 @@ function PortfolioController() {
       link: 'https://james-sg-project-3.herokuapp.com/'
     }
   ];
+
+  controller.navActive = false;
+
+  controller.showNavBar = function () {
+    controller.navActive = !controller.navActive;
+  };
 }
 
 angular
