@@ -25,9 +25,11 @@
   background-color: #E8E8E8;
 }
 .projectTitle {
-  margin: 0;
-  margin-left: 20px;
-  margin-top: -25px;
+  margin-top: -10px;
+}
+
+.projectTitle a {
+  font-family: 'Nixie One', cursive;
 }
 .projectDesc {
   display: inline-block;
@@ -37,8 +39,8 @@
 .portfolio-connect4 {
   background: url(../images/connect4.png) center right no-repeat;
   display: inline-block;
-  height: 25rem;
-  width: 23.5rem;
+  height: 35rem;
+  width: 35rem;
   border-radius: 0.2rem;
   background-size: 100%;
   margin-left: -10px;
@@ -48,8 +50,8 @@
 .portfolio-movies {
   background: url(../images/movies.png) center right no-repeat;
   display: inline-block;
-  height: 25rem;
-  width: 23rem;
+  height: 35rem;
+  width: 35rem;
   border-radius: 0.2rem;
   background-size: 100%;
   margin-left: -3px;
@@ -59,11 +61,26 @@
 .portfolio-police {
   background: url(../images/police.png) center right no-repeat;
   display: inline-block;
-  height: 25rem;
-  width: 23rem;
+  height: 45rem;
+  width: 60rem;
   border-radius: 0.2rem;
-  background-size: 100%;
-  margin-left: -3px;
-  margin-top: -35px;
+  /*background-size: 100%;*/
+  /*margin-left: -3px;*/
+  /*margin-top: -35px;*/
+  /*background-position-x: center;*/
+}
+
+.polariod-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /*font-family: 'Nixie One', cursive;*/
+}
+
+.projects {
+  /*height: 40em;
+  width: 40em;*/
   background-position-x: center;
 }
