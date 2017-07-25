@@ -6,7 +6,7 @@ body {
 }
 
 .container {
-  display: -webkit-box;
+  /*display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
@@ -14,13 +14,13 @@ body {
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center;
+          align-items: center;*/
   margin-top: 15vh;
   margin-bottom: 10vh;
   height: 75vh;
   width: 100vw;
 }
-.container:hover > .section {
+/*.container:hover > .section {
   -webkit-filter: brightness(22%);
           filter: brightness(22%);
 }
@@ -132,21 +132,21 @@ body {
 }
 .container .section:nth-child(1) {
   /*background: url("https://artsandculture.withgoogle.com/gcs/national-parks-service/en-us/Asset-Kenai-desktop.jpg") center;*/
-  background: url(../images/connect4.png) center;
+  /*background: url(../images/connect4.png) center;
 }
 .container .section:nth-child(2) {
   /*background: url("https://artsandculture.withgoogle.com/gcs/national-parks-service/en-us/Asset-Hawaii-desktop.jpg") center;*/
-  background: url(../images/photo.png) center no-repeat;
+  /*background: url(../images/photo.png) center no-repeat;
   height: 100%;
   width: 100%;
 }
 .container .section:nth-child(3) {
   /*background: url("https://artsandculture.withgoogle.com/gcs/national-parks-service/en-us/de0b954d-ca76-41d3-ac3a-900c6bc25139.jpg") center;*/
-  background: url(../images/letter.png) center;
+  /*background: url(../images/letter.png) center;
 }
 .container .section:nth-child(4) {
   background: url("https://artsandculture.withgoogle.com/gcs/national-parks-service/en-us/Asset-Bryce-desktop.jpg") center;
 }
 .container .section:nth-child(5) {
   background: url("https://artsandculture.withgoogle.com/gcs/national-parks-service/en-us/Asset-Tortugas-desktop.jpg") center;
-}
+}*//*/*/
