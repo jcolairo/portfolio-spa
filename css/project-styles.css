@@ -1,4 +1,4 @@
-.projectOutlineBlock {
+/*.projectOutlineBlock {
   display: block;
   margin-left: 25%;
   margin-right: 25%;
@@ -23,7 +23,7 @@
 .polariod-bottom {
   height: 5rem;
   background-color: #E8E8E8;
-}
+}*/
 .projectTitle {
   margin-top: -10px;
 }
@@ -31,11 +31,11 @@
 .projectTitle a {
   font-family: 'Nixie One', cursive;
 }
-.projectDesc {
+/*.projectDesc {
   display: inline-block;
   width: 35%;
   margin: auto 0 auto 2rem;
-}
+}*/
 .portfolio-connect4 {
   background: url(../images/connect4.png) center right no-repeat;
   display: inline-block;
