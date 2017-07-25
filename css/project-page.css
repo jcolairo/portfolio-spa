@@ -1,0 +1,12 @@
+.projectSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+.projectHeading {
+  font-family: 'Nixie One', cursive;
+}
+.projectDesc {
+  max-width: 55%;
+}
