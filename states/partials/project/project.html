@@ -1,16 +1,9 @@
 <section class="container-container">
   <div class="ham" ng-click="port.showNavBar()"></div>
   <div ng-repeat="project in port.portfolioData" class="polariod-container">
-    <div class="projectOutlineBlock">
-      <div class="polariod-top">
-        <div class="polariod-frame">
-          <div class="{{project.titleName}}"></div>
-          <h1 class="projectTitle">
-            <a href="{{project.link}}" target="_blank">{{project.polariodName}}</a>
-          </h1>
-        </div>
-      </div>
-      <p class="projectDesc">{{project.desc}}</p>
-    </div>
+    <div class="projects {{project.titleName}}"></div>
+    <h1 class="projectTitle">
+      <a href="{{project.link}}" target="_blank">{{project.polariodName}}</a>
+    </h1>
   </div>
 </section>
