@@ -1,5 +1,7 @@
-<section class="container-container">
-  <div class="ham" ng-click="port.showNavBar()"></div>
+<section class="container-container" ng-init="port.navActive = false">
+  <div class="ham" ng-class="{hamActive: port.navActive}" ng-click="port.showNavBar()">
+    <span></span>
+  </div>
   <div ng-repeat="project in port.portfolioData" class="polariod-container">
     <div class="projects {{project.titleName}}"></div>
     <h1 class="projectTitle">
