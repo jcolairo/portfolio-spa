@@ -2,7 +2,7 @@
   <div ng-repeat="project in port.portfolioData" class="polariod-container">
     <div class="projects {{project.titleName}}"></div>
     <h1 class="projectTitle">
-      <a href="{{project.link}}" target="_blank">{{project.polariodName}}</a>
+      <a ui-sref="{{project.titleName}}">{{project.polariodName}}</a>
     </h1>
   </div>
 </section>
