@@ -10,3 +10,16 @@
 .projectDesc {
   max-width: 55%;
 }
+.backArrowTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row;
+}
+.backArrow {
+  background: url(../images/arrow.png) center left no-repeat;
+  height: 100px;
+  width: 100px;
+  background-size: 50%;
+  justify-content: space-between;
+}
