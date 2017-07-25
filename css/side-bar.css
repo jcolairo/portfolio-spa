@@ -12,6 +12,7 @@
   align-items: center;
   background: radial-gradient(ellipse at center, rgba(217,217,217,1) 0%, rgba(122,122,122,1) 100%);
   box-shadow: 5px 0 5px -2px #888;
+  z-index: 0;
 }
 .sideBarUl {
   font-size: 3rem;
@@ -49,6 +50,7 @@
   height: 50px;
   left: 25px;
   top: 25px;
+  z-index: 1
 }
 .ham span {
   width: 30px;
