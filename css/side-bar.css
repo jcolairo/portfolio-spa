@@ -4,20 +4,18 @@
   position: fixed;
   padding-left: 5vw;
   height: 100vh;
+  width: 20vw;
   top: 0;
   left: 0;
-  border-right: 2px solid rgba(0,0,0,.5);
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #b0bec5;
+  background: rgba(184, 193, 201, 1);
+  box-shadow: 5px 0 5px -2px #888;
 }
 .sideBarUl {
   font-size: 3rem;
   margin: 0;
-}
-.sideBarLi a {
-  width: 100px;
 }
 .sideBarLi {
   transition: 0.4s;
@@ -27,34 +25,67 @@
   padding: 1rem;
   margin: 0 10px;
   width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.sideBarLi:hover {
-  background-color: #D1D1D1;
-  color: #EEA200;
-  padding: 24px 1rem;
-  border-radius: 10%;
-  width: 100px;
+.sideBarLi a {
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: .3em;
+  height: 20px;
+}
+.sideBarLi a:hover {
+  font-size: 1.1em;
+  font-weight: 600;
+  letter-spacing: .3em;
 }
 .ham {
-  background: url(../images/hamburger.png);
-}
-.ham::before {
-  content:'';
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: fixed;
   width: 50px;
   height: 50px;
   left: 25px;
   top: 25px;
 }
-.ham::after {
-  content: "";
-  position: fixed;
-  border: 1px solid red;
-  width: 50px;
-  height: 50px;
-  left: 25px;
-  top: 25px;
+.ham span {
+  width: 30px;
+  height: 3px;
+  background: black;
 }
+.ham span:before {
+  width: 30px;
+  height: 3px;
+  background: black;
+  content: '';
+  position: absolute;
+  transform: translateY(-10px);
+  transition: transform .3s linear;
+}
+.ham span:after {
+  width: 30px;
+  height: 3px;
+  background: black;
+  content: '';
+  position: absolute;
+  transform: translateY(10px);
+  transition: transform .3s linear;
+}
+.hamActive span {
+  background: transparent;
+}
+.hamActive span::before {
+  transform-origin: center;
+  transform: translateY(0) rotate(45deg);
+  background: black;
+}
+.hamActive span::after {
+  transform-origin: center;
+  transform: translateY(0) rotate(-45deg);
+  background: black;
+}
+
 .sideBar {
   transform: translateX(-100%);
   transition: transform 0.3s linear;
