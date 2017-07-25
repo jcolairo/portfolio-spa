@@ -10,7 +10,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: rgba(184, 193, 201, 1);
+  background: radial-gradient(ellipse at center, rgba(217,217,217,1) 0%, rgba(122,122,122,1) 100%);
   box-shadow: 5px 0 5px -2px #888;
 }
 .sideBarUl {
@@ -33,10 +33,11 @@
   font-family: 'Open Sans', sans-serif;
   letter-spacing: .3em;
   height: 20px;
+  transition: all .1s linear;
 }
 .sideBarLi a:hover {
-  font-size: 1.1em;
-  font-weight: 600;
+  font-size: 1.2em;
+  font-weight: 500;
   letter-spacing: .3em;
 }
 .ham {
@@ -60,7 +61,7 @@
   background: black;
   content: '';
   position: absolute;
-  transform: translateY(-10px);
+  transform: translateY(-8px);
   transition: transform .3s linear;
 }
 .ham span:after {
@@ -69,7 +70,7 @@
   background: black;
   content: '';
   position: absolute;
-  transform: translateY(10px);
+  transform: translateY(8px);
   transition: transform .3s linear;
 }
 .hamActive span {
