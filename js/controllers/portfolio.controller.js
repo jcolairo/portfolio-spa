@@ -9,7 +9,8 @@ function PortfolioController() {
       img: 'connect4',
       desc: 'Connect 4 desciption Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       shortDesc: 'short desciption',
-      link: 'https://jcolairo-sg-project-1.herokuapp.com/'
+      link: 'https://jcolairo-sg-project-1.herokuapp.com/',
+      githubLink: 'https://github.com/jcolairo/sg-project-1'
     },
     {
       title: 'Find crime in your area',
@@ -18,7 +19,8 @@ function PortfolioController() {
       img: 'police.png',
       desc: 'police api desciption Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       shortDesc: 'short desciption',
-      link: 'https://james-sg-project-3.herokuapp.com/'
+      link: 'https://james-sg-project-3.herokuapp.com/',
+      githubLink: 'https://github.com/jcolairo/sg-project-3'
     },
     {
       title: 'Find your favourite Movie',
@@ -27,7 +29,8 @@ function PortfolioController() {
       img: 'movies.png',
       desc: 'movies users desciption Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       shortDesc: 'short desciption',
-      link: 'https://users-movie-mvc.herokuapp.com/'
+      link: 'https://users-movie-mvc.herokuapp.com/',
+      githubLink: 'https://github.com/jcolairo/users-movie-mvc'
     }
   ];
 
