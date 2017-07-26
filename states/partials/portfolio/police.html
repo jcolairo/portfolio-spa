@@ -1,8 +1,12 @@
 <section class="projectSection">
   <div class="backArrowTitle">
     <div class="backArrow" ui-sref="project"></div>
-    <h1 class="projectHeading">{{port.portfolioData[0].title}}</h1>
+    <h1 class="projectHeading">{{port.portfolioData[1].title}}</h1>
   </div>
   <p ng-class="port.portfolioData[1].titleName"></p>
   <p class="projectDesc">{{port.portfolioData[1].desc}}</p>
+  <div class="linkDiv">
+    <a class="herokuLink" href="{{port.portfolioData[1].link}}" target="_blank"></a>
+    <a class="githubLink" href="{{port.portfolioData[1].githubLink}}" target="_blank"></a>
+  </div>
 </section>
