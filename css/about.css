@@ -1,0 +1,44 @@
+.aboutPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+.aboutTitle {
+  font-family: 'Nixie One', cursive;
+}
+.aboutDesc {
+  font-family: 'Open Sans', sans-serif;
+  max-width: 55%;
+  font-size: 0.8em;
+  letter-spacing: 0.1em;
+  line-height: 1.8em;
+  word-spacing: 0.8em;
+  text-align: center;
+}
+.linkDivTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+.linkDivName {
+  margin: 0;
+}
+.linkDivName a {
+  font-family: 'Nixie One', cursive;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+}
+.emailLink {
+  background: url(../images/email.png) center center no-repeat;
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+}
+.cvLink {
+  background: url(../images/cv.png) center center no-repeat;
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+}
