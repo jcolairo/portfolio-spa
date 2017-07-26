@@ -23,3 +23,23 @@
   background-size: 50%;
   justify-content: space-between;
 }
+.linkDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row;
+}
+.herokuLink {
+  background: url(../images/heroku.png) center center no-repeat;
+  height: 50px;
+  width: 35px;
+  margin: 10px;
+  margin-bottom: 20px;
+}
+.githubLink {
+  background: url(../images/github.png) center center no-repeat;
+  height: 50px;
+  width: 140px;
+  margin: 10px;
+  margin-bottom: 20px;
+}
