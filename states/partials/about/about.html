@@ -1,3 +1,18 @@
-<section ng-init="port.navActive = false">
-  <h1>About</h1>
+<section ng-init="port.navActive = false" class="aboutPage">
+  <h1 class="aboutTitle">About</h1>
+  <p class="aboutDesc">{{port.aboutData[0].desc}}</p>
+  <div class="linkDiv">
+    <div class="linkDivTitle">
+      <a class="githubLink" href="{{port.aboutData[0].githubLink}}" target="_blank"></a>
+      <p class="linkDivName"><a href="{{port.aboutData[0].githubLink}}" target="_blank">GitHub</a></p>
+    </div>
+    <div class="linkDivTitle">
+      <a class="emailLink" href="mailto:{{port.aboutData[0].email}}" target="_blank"></a>
+      <p class="linkDivName"><a href="mailto:{{port.aboutData[0].email}}" target="_blank">Email</a></p>
+    </div>
+    <div class="linkDivTitle">
+      <a class="cvLink" href="../../images/cv.pdf" target="_blank"></a>
+      <p class="linkDivName"><a href="../../images/cv.pdf" target="_blank">CV</a></p>
+    </div>
+  </div>
 </section>
