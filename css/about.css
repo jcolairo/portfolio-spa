@@ -45,3 +45,48 @@
 .linkedInLink {
   background: url(../images/linkedin.png) center center no-repeat;
 }
+/*.aboutSkillsRepeat {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+
+}
+.aboutSkillsRepeat ul {
+  height: 50px;
+  width: 50px;
+  flex-flow: row;
+}*/
+/*.something {
+  max-width: 75%;
+}*/
+.aboutSkillsRepeat {
+  /*display: flex;*/
+  /*flex-flow: row;*/
+  /*justify-content: center;*/
+  /*align-items: center;*/
+}
+.aboutSkillsDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row;
+  max-height: 50px;
+  max-width: 50px;
+}
+/*.aboutSkillsDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row;
+  flex-wrap: wrap;
+  height: 50px;
+  width: 50px;
+  border-right: 1px solid red;
+}
+.aboutSkills {
+  height: 50px;
+  width: 50px;
+  border: 1px solid black;
+  margin: 5px;
+}*/
