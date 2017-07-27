@@ -45,48 +45,63 @@
 .linkedInLink {
   background: url(../images/linkedin.png) center center no-repeat;
 }
-/*.aboutSkillsRepeat {
+.githubIconLink {
+  background: url(../images/github-icon.png) center center no-repeat;
+}
+.aboutSkillsImageText {
   display: flex;
-  flex-flow: row;
   justify-content: center;
   align-items: center;
-
+  flex-flow: column;
 }
-.aboutSkillsRepeat ul {
-  height: 50px;
-  width: 50px;
-  flex-flow: row;
-}*/
-/*.something {
-  max-width: 75%;
-}*/
 .aboutSkillsRepeat {
-  /*display: flex;*/
-  /*flex-flow: row;*/
-  /*justify-content: center;*/
-  /*align-items: center;*/
-}
-.aboutSkillsDiv {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-flow: row;
-  max-height: 50px;
-  max-width: 50px;
 }
-/*.aboutSkillsDiv {
+.aboutSkillsUl {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row;
   flex-wrap: wrap;
-  height: 50px;
-  width: 50px;
-  border-right: 1px solid red;
+  max-width: 85%;
 }
 .aboutSkills {
   height: 50px;
   width: 50px;
-  border: 1px solid black;
-  margin: 5px;
-}*/
+  margin: 20px;
+}
+.jQuery {
+  background: url(../images/jquery.png) center center no-repeat;
+}
+.CSS3 {
+  background: url(../images/css3.png) center center no-repeat;
+}
+.SCSS {
+  background: url(../images/scss.png) center center no-repeat;
+}
+.HTML5 {
+  background: url(../images/html5.png) center center no-repeat;
+}
+.JS {
+  background: url(../images/js.png) center center no-repeat;
+}
+.AngularJS {
+  background: url(../images/angularjs.png) center center no-repeat;
+}
+.NodeJS {
+  background: url(../images/nodejs.png) center center no-repeat;
+}
+.ExpressJS {
+  background: url(../images/express.png) center center no-repeat;
+}
+.Github {
+  background: url(../images/github-icon.png) center center no-repeat;
+}
+.MongoDB {
+  background: url(../images/mongodb.png) center center no-repeat;
+}
+.Firebase {
+  background: url(../images/firebase.png) center center no-repeat;
+}
