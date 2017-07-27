@@ -19,4 +19,18 @@
       <p class="linkDivName"><a href="{{port.aboutData[0].linkedin}}" target="_blank">LinkedIn</a></p>
     </div>
   </div>
+  <h4>Skills</h4>
+  <div ng-repeat="s in port.aboutData[0].skills" class="aboutSkillsRepeat">
+    <ul class="aboutSkillsDiv">
+      <li class="aboutSkills">{{s}}</li>
+    </ul>
+  </div>
+  <!-- <div class="something">
+  <div class="aboutSkillsRepeat">
+    <div class="aboutSkillsDiv">
+      <div class="aboutSkills">something</div>
+      <div class="aboutSkills">something else</div>
+    </div>
+  </div>
+  </div> -->
 </section>
