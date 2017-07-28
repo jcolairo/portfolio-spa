@@ -1,6 +1,6 @@
 <section class="container-container" ng-init="port.navActive = false">
   <div ng-repeat="project in port.portfolioData" class="polariod-container">
-    <div class="projects {{project.titleName}}" ui-sref="{{project.titleName}}"></div>
+    <div><a class="projects {{project.titleName}}" ui-sref="{{project.titleName}}"></a></div>
     <h1 class="projectTitle">
       <a ui-sref="{{project.titleName}}">{{project.polariodName}}</a>
     </h1>
