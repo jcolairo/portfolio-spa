@@ -10,6 +10,8 @@
   max-width: 810px;
   text-align: center;
   margin-right: 100px;
+  text-transform: capitalize;
+  font-size: 3.2em;
 }
 .projectDesc {
   max-width: 55%;
