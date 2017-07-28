@@ -15,6 +15,11 @@
 }
 .projectDesc {
   max-width: 55%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+  font-weight: 400;
+  line-height: 1.8em;
+  text-align: center;
 }
 .backArrowTitle {
   display: flex;
