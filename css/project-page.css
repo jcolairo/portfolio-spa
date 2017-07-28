@@ -36,10 +36,19 @@
   flex-flow: row;
   margin-bottom: 20px;
 }
+.featureLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+.featureLink a {
+  font-family: 'Nixie One', cursive;
+}
 .herokuLink {
   background: url(../images/heroku.png) center center no-repeat;
   height: 50px;
-  width: 35px;
+  width: 135px;
   margin: 10px;
 }
 .githubLink {
