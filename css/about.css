@@ -4,9 +4,11 @@
   align-items: center;
   flex-flow: column;
   height: 100vh;
+  margin-left: 5%;
 }
 .aboutTitle {
   font-family: 'Nixie One', cursive;
+  text-align: center;
 }
 .aboutDesc {
   font-family: 'Open Sans', sans-serif;
