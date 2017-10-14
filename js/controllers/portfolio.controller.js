@@ -37,7 +37,7 @@ function PortfolioController() {
       desc: 'A junior developer with a passion to reach the top. I have completed projects as shown and am in the process of completing more, always willing to learn from others and make myself a better developer. Talented in the languages below and I am looking to work in a team that will help me get to the next level.',
       email: 'jamescolairo37@gmail.com',
       githubLink: 'https://github.com/jcolairo',
-      linkedin: 'https://www.linkedin.com/in/james-colairo/',
+      linkedin: 'https://www.linkedin.com/in/jcolairo/',
       skills: [
         'jQuery',
         'CSS3',
