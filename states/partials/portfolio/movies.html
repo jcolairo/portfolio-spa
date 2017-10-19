@@ -1,1 +1,18 @@
-<h1>Movies</h1>
+<section class="projectSection">
+  <div class="backArrowTitle">
+    <a class="backArrow" ui-sref="project"></a>
+    <h1 class="projectHeading">{{port.portfolioData[2].title}}</h1>
+  </div>
+  <p ng-class="port.portfolioData[2].titleName"></p>
+  <p class="projectDesc">{{port.portfolioData[2].desc}}</p>
+  <div class="linkDiv">
+    <div class="featureLink">
+      <a class="herokuLink" href="{{port.portfolioData[2].link}}" target="_blank"></a>
+      <a  href="{{port.portfolioData[2].link}}" target="_blank">View Project</a>
+    </div>
+    <div class="featureLink">
+      <a class="githubLink" href="{{port.portfolioData[2].githubLink}}" target="_blank"></a>
+      <a href="{{port.portfolioData[2].githubLink}}" target="_blank">View Code</a>
+    </div>
+  </div>
+</section>

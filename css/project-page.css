@@ -1,0 +1,64 @@
+.projectSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+.projectHeading {
+  font-family: 'Nixie One', cursive;
+  min-width: 910px;
+  max-width: 810px;
+  text-align: center;
+  margin-right: 100px;
+  text-transform: capitalize;
+  font-size: 3.2em;
+}
+.projectDesc {
+  max-width: 55%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2em;
+  font-weight: 400;
+  line-height: 1.8em;
+  text-align: center;
+}
+.backArrowTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row;
+  width: 100%;
+}
+.backArrow {
+  background: url(../images/arrow.png) center left no-repeat;
+  height: 100px;
+  width: 100px;
+  background-size: 50%;
+}
+.linkDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row;
+  margin-bottom: 20px;
+}
+.featureLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+.featureLink a {
+  font-family: 'Nixie One', cursive;
+}
+.herokuLink {
+  background: url(../images/heroku.png) center center no-repeat;
+  height: 50px;
+  width: 35px;
+  margin: 10px;
+}
+.githubLink {
+  background: url(../images/github.png) center center no-repeat;
+  height: 50px;
+  width: 140px;
+  margin: 10px;
+}
