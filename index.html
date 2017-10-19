@@ -8,8 +8,9 @@
    <!-- <link rel="stylesheet"
 
     href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css"> -->
-
+<link href="https://fonts.googleapis.com/css?family=Nixie+One|Open+Sans:400,700" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+
 
   <!-- <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script> -->
 
@@ -33,27 +34,20 @@
   <script src="js/controllers/portfolio.controller.js"></script>
 
   <link type="text/css" rel="stylesheet" href="css/styles.css" />
+  <link type="text/css" rel="stylesheet" href="css/side-bar.css" />
   <link type="text/css" rel="stylesheet" href="css/home-styles.css" />
   <link type="text/css" rel="stylesheet" href="css/project-styles.css" />
+  <link type="text/css" rel="stylesheet" href="css/project-page.css" />
+  <link type="text/css" rel="stylesheet" href="css/temp.css" />
+  <link type="text/css" rel="stylesheet" href="css/about.css" />
 
   <title>James Colairo</title>
 </head>
 <body>
-
-  <div id="bg"></div>
-  <section>
-    <nav>
-      <div></div>
-      <ul>
-        <li data-xcoord="0px" ui-sref="home"><a>Home</a></li>
-        <li data-xcoord="160px" ui-sref="project"><a>Project</a></li>
-        <li data-xcoord="320px" ui-sref="about"><a>About</a></li>
-        <li data-xcoord="480px" ui-sref="contact"><a>Contact</a></li>
-      </ul>
-    </nav>
-  </section>
-
-  <div ui-view>
+  <div
+    class="index-container"
+    ng-controller="PortfolioController as port"
+    ui-view>
 
   </div>
 </body>

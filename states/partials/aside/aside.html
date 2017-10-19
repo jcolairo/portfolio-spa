@@ -1,0 +1,10 @@
+<a class="ham" ng-class="{hamActive: port.navActive}" ng-click="port.showNavBar()" ng-init="port.navActive = false">
+  <span></span>
+</a>
+<section class="sideBar" ng-class="{active: port.navActive}">
+    <ul class="sideBarUl">
+      <li ui-sref="home" class="sideBarLi"><a>Home</a></li>
+      <li ui-sref="project" class="sideBarLi"><a>Project</a></li>
+      <li ui-sref="about" class="sideBarLi"><a>About</a></li>
+    </ul>
+</section>

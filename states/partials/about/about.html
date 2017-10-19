@@ -1,1 +1,31 @@
-<h1>About</h1>
+<section ng-init="port.navActive = false" class="aboutPage">
+  <h3 class="aboutTitle">I am a Front-End Developer from London</h3>
+  <p class="aboutDesc">{{port.aboutData[0].desc}}</p>
+  <div class="linkDiv">
+    <div class="linkDivTitle">
+      <a class="githubIconLink aboutLink" href="{{port.aboutData[0].githubLink}}" target="_blank"></a>
+      <a class="linkDivName" href="{{port.aboutData[0].githubLink}}" target="_blank">GitHub</a>
+    </div>
+    <div class="linkDivTitle">
+      <a class="emailLink aboutLink" href="mailto:{{port.aboutData[0].email}}" target="_blank"></a>
+      <a class="linkDivName" href="mailto:{{port.aboutData[0].email}}" target="_blank">Email</a>
+    </div>
+    <div class="linkDivTitle">
+      <a class="cvLink aboutLink" href="../../../cv.pdf" target="_blank"></a>
+      <a class="linkDivName" href="../../../cv.pdf" target="_blank">CV</a>
+    </div>
+    <div class="linkDivTitle">
+      <a class="linkedInLink aboutLink" href="{{port.aboutData[0].linkedin}}" target="_blank"></a>
+      <a class="linkDivName" href="{{port.aboutData[0].linkedin}}" target="_blank">LinkedIn</a>
+    </div>
+  </div>
+  <h4 class="aboutTitle">Skills</h4>
+  <div class="aboutSkillsRepeat">
+    <ul class="aboutSkillsUl">
+      <li ng-repeat="s in port.aboutData[0].skills" class="aboutSkillsImageText">
+        <p class="aboutSkills aboutLink" ng-class="s"></p>
+        <p class="linkDivName">{{s}}</p>
+      </li>
+    </ul>
+  </div>
+</section>
