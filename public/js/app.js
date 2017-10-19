@@ -1,4 +1,4 @@
-function MainRouter ($stateProvider, $urlRouterProvider) {
+function MainRouter ($stateProvider, $urlRouterProvider, $locationProvider) {
   $stateProvider
     .state('home', {
       url: '/',
@@ -57,9 +57,10 @@ function MainRouter ($stateProvider, $urlRouterProvider) {
     });
 
   $urlRouterProvider.otherwise('/');
+  $locationProvider.html5Mode(true);
 }
 
-MainRouter.$inject = ['$stateProvider', '$urlRouterProvider'];
+MainRouter.$inject = ['$stateProvider', '$urlRouterProvider', '$locationProvider'];
 
 angular
   .module('PortfolioApp', ['ui.router'])
