@@ -46,3 +46,10 @@
     margin-top: 100px;
   }
 }
+
+/* Side Bar */
+@media screen and (max-width: 435px) {
+  .sideBar {
+    width: 100vw;
+  }
+}
