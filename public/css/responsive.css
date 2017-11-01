@@ -48,8 +48,21 @@
 }
 
 /* Side Bar */
-@media screen and (max-width: 435px) {
+@media screen and (max-width: 425px) {
   .sideBar {
     width: 100vw;
+  }
+}
+
+/* Projects Page */
+@media screen and (max-width: 425px) {
+  .polariod-container {
+    width: 100vw;
+  }
+  .projects {
+    max-width: 80vw;
+  }
+  .portfolio-police {
+    max-height: 23rem;
   }
 }
