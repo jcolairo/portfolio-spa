@@ -1,0 +1,28 @@
+/* Home page */
+@media screen and (max-width: 425px) {
+  .content {
+    height: 100vh;
+    width: 100vw;
+  }
+  .container {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+  }
+  .homeNavAbout {
+    margin: 0 auto 75px auto;
+  }
+  .homeNavProjects {
+    margin: 75px auto 0 auto;
+  }
+}
+
+/* About page */
+@media screen and (max-width: 425px) {
+  .aboutPage {
+    height: 100vh;
+    width: 100vw;
+  }
+}
